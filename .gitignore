@@ -1,0 +1,22 @@
+# Build outputs and local diagnostics
+/.build/
+/.build-*
+/dist/
+*.log
+*.dSYM/
+.DS_Store
+._*
+
+# Private configuration and local state
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key
+/outputs/
+/work/
+
+# One-off checks tied to the original developer machine
+/Tests/LocalIntegrationProbe.swift
